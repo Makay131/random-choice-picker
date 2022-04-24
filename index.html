@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Choice Picker</title>
+  </head>
+  <body>
+    <div class="container">
+      <h3 class="container__heading">
+        Enter all of the choices divided by a comma (','). <br />
+        Press enter when you're done
+      </h3>
+      <textarea placeholder="Enter choices here..." class="textarea"></textarea>
+
+      <div id="tags">
+        <!-- <span class="tag highlight">Choice 1</span>
+        <span class="tag">Choice 2</span>
+        <span class="tag">Choice 3</span> -->
+      </div>
+
+      <div class="button-con">
+        <button onClick="window.location.reload()" class="button">
+          Pick again
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
